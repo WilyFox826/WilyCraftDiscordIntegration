@@ -26,11 +26,9 @@ app.post('/post', urlencodedParser, async (req, res) => {
             { name: 'Миры', value: worlds },
         );
 
-    await bot.channels.fetch('781598931409829899').then(channel => {
+    await bot.channels.fetch(process.env.CHANNELID).then(channel => {
         channel.send(embed);
     });
-    
-    console.log(name, text);
     res.end();
 });
 
