@@ -1,0 +1,14 @@
+{
+  "name": "wilycraftdiscordintegration",
+  "version": "1.0.0",
+  "description": "WilyCraft server information in Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WilyFox",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
